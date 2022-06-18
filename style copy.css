@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    margin: 0;
+    background-image: url(версия2.svg);
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+.hero {
+
+}
+
+.container {
+    max-width: 1230px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.hero-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    grid-auto-rows: minmax(50px, auto);
+    grid-gap: 20px;
+}
+
+.hero-box1 {
+align-self: center;
+display: grid;
+}
+
+.hero-box2 {
+    height: 800px;
+align-self: center;
+}
+
+.hero-name, .hero-about, .hero-position, .hero-description, .hero-links {
+text-align: center;
+}
+
+.hero-name {
+    font-family: El Messiri;
+}
+
+.hero-about, .hero-position {
+    font-family: Inter;
+}
+
+.hero-description {
+    font-family: Raleway;
+}

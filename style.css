@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    margin = 0;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+.hero {
+min-height: 100vh;
+display: flex;
+justify-content: center;
+}
+
+.container {
+    max-width: 1230px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.hero-container {
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(290px, 1fr));
+grid-gap: 20px;
+}
+
+.hero-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+*/
