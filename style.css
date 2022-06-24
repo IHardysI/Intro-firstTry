@@ -58,6 +58,7 @@ align-items: center;
 
 .hero-box-img {
     animation: img-bg 3s infinite alternate;
+    padding-top: 30px;
 }
 
 .hero-name, .hero-about, .hero-position, .hero-description, .hero-links {
@@ -82,6 +83,11 @@ align-items: center;
 .hero-number {
     text-align: center;
     font-family: Raleway;
+}
+
+.hero-link {
+    color: #390B68;
+    text-decoration: none;
 }
 
 @keyframes img-animate {
